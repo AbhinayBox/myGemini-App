@@ -38,6 +38,7 @@ function App() {
         </div>
         <p className="label">Question</p>
         <textarea
+          value={question}
           onChange={(e) => {
             setQuestion(e.target.value);
           }}
